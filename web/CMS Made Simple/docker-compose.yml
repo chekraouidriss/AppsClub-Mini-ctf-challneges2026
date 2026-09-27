@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  cms:
+    build: .
+    security_opt:
+      - no-new-privileges:true
+    ports:
+      - "8080:80"
+      - "2222:22"

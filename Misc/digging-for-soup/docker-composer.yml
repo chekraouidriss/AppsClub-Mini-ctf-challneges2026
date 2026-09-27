@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  dns:
+    build: .
+    container_name: digging_dns
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+    restart: unless-stopped

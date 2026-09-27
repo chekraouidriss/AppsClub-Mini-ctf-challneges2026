@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /.backup/......
+allow: /home.php
+
+nyfb pybfr cbeg 2222 naq 3306 jura lbh ner qbar

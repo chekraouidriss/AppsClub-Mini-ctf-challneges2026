@@ -1,0 +1,6 @@
+zone "soup.com" {
+    type master;
+    file "/etc/bind/db.soup.com";
+
+    allow-transfer { any; };
+};

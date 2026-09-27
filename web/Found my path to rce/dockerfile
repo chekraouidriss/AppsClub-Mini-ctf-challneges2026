@@ -1,0 +1,26 @@
+# ===== WEB CGI CHALLENGE =====
+
+FROM httpd:2.4
+
+# Enable CGI properly
+RUN sed -i '/LoadModule cgid_module/s/^#//g' /usr/local/apache2/conf/httpd.conf && \
+    echo "ScriptAlias /cgi-bin/ /usr/local/apache2/cgi-bin/" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "<Directory \"/usr/local/apache2/cgi-bin\">" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "    Options +ExecCGI" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "    AddHandler cgi-script .sh .cgi" >> /usr/local/apache2/conf/httpd.conf && \
+    echo "</Directory>" >> /usr/local/apache2/conf/httpd.conf
+
+# Copy files
+COPY htdocs/ /usr/local/apache2/htdocs/
+COPY cgi-bin/ /usr/local/apache2/cgi-bin/
+
+#hta hna 
+COPY /Found my path to rce/opt/internal_backup/flag.txt /flag.txt
+COPY cgi-bin/ /usr/lib/cgi-bin/
+RUN chmod +x /usr/lib/cgi-bin/*.sh
+# Permissions
+RUN chmod -R +x /usr/local/apache2/cgi-bin/
+
+EXPOSE 80
+
+CMD ["httpd-foreground"]

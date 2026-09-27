@@ -1,0 +1,101 @@
+$TTL 86400
+@   IN  SOA ns1.soup.com. hostmaster.soup.com. (
+        2026041302 ; Serial
+        28800
+        7200
+        604800
+        86400 )
+
+@       IN  NS      ns1.soup.com.
+ns1     IN  A       164.92.204.93
+
+@       IN  TXT     "Close, but no cigar... where else could it be?"
+hint    IN  TXT     "soup is best served in pieces"
+note    IN  TXT     "encryption won't help if you spill secrets"
+
+flag IN TXT (
+"s7p204bmVTCz0RvYWx0wm22WEvoxk3E6vprCbzShB+KRyJYWaDeEur5Z6M3FsO2fKTF"
+"ZyjFCqyAS6TpMP0pnGiNYb54DWE+rSRqV+o3dRkac2V/xdBL3YdVorjjWhyCnJwpIkp"
+"nNZ9Vyhk8I+QIR5UJ2M1YejhIZSpeN+oCQlu0Hd8KVUrNVipqmrUeYojGPoq3zMVpLY"
+"Za9YWjxDiJVKkm1vAC7ApwEs2K+IQWI1dR6iDPsBp9SSPXchQ5vBfX1LO6UJ0Vs/Knn"
+"FBUHlaSRRWc0t0noAGBrj3Ivxd+22Lsl+ALl9UP1zuFb9hbFaz4UhXLU8DkjlG6/98O"
+"EVQYC8w=="
+)
+
+logs   IN TXT "nothing_here"
+secret IN TXT "keep_looking"
+backup IN TXT "maybe check internal systems?"
+dev    IN TXT "todo: remove test keys before prod"
+
+okey IN TXT (
+"-----BEGIN RSA PRIVATE KEY----- "
+"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdjZH9e3lePQSL"
+"atv64ZB1A8KzdTI5kGRDZbaAbr5g7v61KDDI7rdEnaiKQE5yHS3X/e2AJ+WjAsFK"
+"3EiQTk9/BeJHxAQxXdwIck5y0DPa2M761IvNN03mVLFG/+MHpoBNpclkryRimcpK"
+"pqvFwLHXZQTHWiFIKdc1L7SHVLqlFkS7IGKDRKpoiYCLdbg2TwJsrnbKFLyKq4/K"
+"TR9vCUPLQ70+bcJ5LvmWysi57daNyBdEmvS0qCGIBMMxv2UTOfE+RAM8ytEWWVyR"
+"lLuADsaxWmM/EJvm1IfT0V9gD5duStnko7mMVICA7vGvgozBcqN71X5BTCwrN3xi"
+"KexfWU9dAgMBAAECggEAG0L/2+idm5zbSHR5E/Qr1tOLwRmqUyOU9cSHy7ld38/6"
+"6sXFiz8jHxBYtXNjH4PFBva9PcuphIdZguaS98VVJBmUie50+0XOaPe+c0drcZbK"
+"WcSlXCERraVB95MXaZ952/Wv32ge16DczAYC+vjYzPiB1yzVTXNP9bgHeNNEaIQo"
+"H0/hOQp2Vdzrms6zKyA72ITGdNPHg+D0PGa+7PgLdY7tzUot4KZF4Q83MsDPEkmO"
+"sF0xchM8DyzKy/ZfPkQv6wlkLYvJwn91MXNPdaOa/8XV9+TtI48V9afDJIn6t1LI"
+"FMFYzvvWh01TKmfbDsuVjPaAXmoQQyxVLsuXl0p6gQKBgQDb0MlXWHaqjNuUptjs"
+"AwdSlNysC0xeJ+eMRsGK35G9uRxe9nZFFmNpJDzAQ4TpnKi8pK73gjw6dSn/VK4P"
+"81v/qfbupPgHO9boxo+nfbo4VHM8RKLXJp5hnjMa+VxFO5XvYqV5KDoY8ISxOIGq"
+"kbR1BuYYDYeQYGRrSOBxkzHJOQKBgQC3fPykNGIyDrcwb82D1DUy2eHjc4Mw+QOV"
+"C+vDyy2mF1ZWsOVEnSAeO7fWB+H59yiK5EgN1CIUWYpDcK543mmWkxj+w7W6RTdr"
+"jiV5qk8fq1rJepbU505n1zdOsET91CEEtIdhtEZYrx7Ltpi8HETPihBrPQOT0Wcm"
+"hP9KJq2rRQKBgQDaJgqrNJAQElqY3DzLfPX3buTRmSThDJkvDclmGRp6Pwt48v/M"
+"8LsXzW69IET30xFipc0+tXEwUrarP06/ZbUXtYXqsK22ABz4RpaqkowM+0KhvTwe"
+"aaUlG+t8CZ0Y2FmkiTHPW6zMs2X8uyd0L8X3njEcDdFL513BW0HjdUEjgQKBgDZV"
+"xb6eYIGwR+EJCpPCMGq5iKHBIBVNeBkX6Z4WOZNYj9GmGo5h9RPe3UZ9GRbbcN8I"
+"UKn/qoPaLA5ifNgADMZxEtLGg7cALjQkaMaJf1rCdGT7b1Tmlho76f3cRuHfglOR"
+"XhG5v6cdXII4tSvnNx06JjiLXdbVCLWoZqy/nWf9AoGAfus4BCLoOkgAkWCvTwl4"
+"E2wWzARQFIv3urz779vrw0O1EJBB23mmIt6mt1ogEK8ejVsb4FXlzeOstgsY1MSh"
+"FZfmEMD3BRdirRdNnoeY9WmJvLi+BEBzM75FB/2Hd1TKJ3aQWA8pF0Q0DyT0YABH"
+"PWyNC3qi415sYn4egZBqGVw="
+"-----END RSA PRIVATE KEY-----"
+)
+
+; REAL KEY (split cleanly)
+chunk1 IN TXT "-----BEGIN RSA PRIVATE KEY-----"
+
+chunk2 IN TXT (
+"UYv5KmnzAgMBAAECggEAKrjM+IS7w8QU947+nR8v1zYRJFr6uEfoOPJA26qDk+h+"
+"PyZDaNpgOkyiHEyEhAuJNq3tqPyKuyji50+YJUI+U/hApXP48WY+lLJMwLvnqke8"
+"UijCaJA5L+QfnyBkdOR+eGyW3TkdoAcRk/jXuoJgBLSMtOJNIG2XYcDLRU0MblkK"
+"gaDhvusiFdLcXwcdOP7H2x4oND5HT9Bnjd7hGO29dAnBdMZjh1J7/qXb+X9x5ECi"
+"6oR4jJI8eMsDkPiUZJZr/9KIQTZcAB6gdfEqvpb8KUdyoieTGWZNN0Gfr56b1I5J"
+"lL7sXgi7EjG6+1MfbKdtbHbNVcSNYiKh+GvRQAZXCQKBgQDwHVa+DB6g5S+bYBJZ"
+"P+QpBoo9sH8Q74BVf30T5aEBACCuCSKKAy3nU/V2frFomUI2L41fDq/iQ9J4JVEq"
+"fUc3PeSubfsKKDhHOOZldH5r9htwDTn6uYIejeYPM80PrSFgor9DGV9TbCtD2a4o"
+"Eur9hEVQcqC6Be0aJ4sQc6jCywKBgQDRXsZbZgL98sU2SZX3YJfCv9jMb7bFuTxH"
+)
+
+chunk3 IN TXT "MIIEpAIBAAKCAQEAdddsd"
+
+chunk4 IN TXT (
+"xkacsUhsZmn/XyULA4AqyBE9orHbdKPfjFBo6KTo41zSTw51aHAl10uZxVOT5H1E"
+"rEEv8o+GOxscRwzUiQxSYk9yO5KTcChRjupPtmVhclZyPV708m9uZ88LXveU+EId"
+"hOmE/vAIeQKBgBdR8iPBD5R2zdncScvrPaCSZwi4xI6DhEZJfH9bNPjg50ufzX/z"
+"8Rhfeh6JDXfoMpsKoUNTLNff2Ggcz7Y9tpXx5+zc952z7EtWhmHiH4kivOV0E2Z7"
+"b9zB0U82q7rTCMPW6pZ8t1plzgnn8VcpBzOaDhVTHLMUckOxBXuSkBhjAoGAb8AK"
+"V5ZnWmxN3t//733bAtOrP9MQ1xA7oIOwBMqLQXCYevmpp+tCaZNHwIIqNFxZa2RV"
+"NumVu8g/LvGLYhdQZKI5c+Xi6jk2s4TNdm4dNSQvIDS8IGTV8tMOXIZ3gcKHgqCp"
+"Z8qO6ihBA9DF8i/EUkWOOR+DPjwT7fWXPqlkLOECgYEA58pX2bajmQLq+brMULA2"
+"vqnzTHP/qzNIvJOwc7D/DyPLcSiyZ5G7MecPrjQ6zfQklsn4mb9STLluXPyssrkY"
+"9d3uyvcJSnt8Ae4unoTQcZcRXKEG3vzMqceBQXMPQGV10hceKOb4/Ojzjngwf3D2"
+"0wM3f4J017tZw7d3ui3sXZ4="
+)
+
+chunk5 IN TXT (
+"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEYNijbODGg0kZ"
+"ZbY5HNzb/Rj5guM/voHsT7f/RT/m73mLB4GmRc/yApxkDyIUobq/6RhNGri9Bzpr"
+"8HDY8eN4/D/YJmVY6Or7aQVFQc4RthaRcNC88E+5bDMo25+sj2GBc3Mna70wt3Y6"
+"fQ3uR6JBh5ka43Eo0RHqsKVxfkRYe12THyBIhHKJps5WxlmWsH3uOvNmwcsY9Ayq"
+"BsnuIKf+hT7o9GQVUqf8cJ26eX4igM9lZlezS0vAJ/HMma5fV955ZgrFK5upQ98z"
+"Y4yZmmzVMXuvs1iQn/6k1D+yDClMbE7EJvDH3qdv6A01/9Su7lApPWkEanZGGvcy"
+)
+
+chunk6 IN TXT "-----END RSA PRIVATE KEY-----"

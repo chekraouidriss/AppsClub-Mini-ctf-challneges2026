@@ -1,0 +1,3 @@
+- finish project
+- clean logs
+- remove sensitive data (IMPORTANT)

@@ -1,0 +1,27 @@
+🟢 Hint 1 (very light)
+
+The page might not show everything… try looking deeper.
+
+🟡 Hint 2
+
+There might be a way to include files using the URL.
+
+🟠 Hint 3
+
+PHP has special wrappers that can help you read source code.
+
+🔴 Hint 4
+
+Try using php://filter with base64 encoding.
+
+🔴 Hint 5
+
+Authentication logic is not in login.php.
+
+🔴 Hint 6
+
+A single character can change everything.
+
+🔥 Final Hint (if stuck)
+
+Remove something that reverses logic.
